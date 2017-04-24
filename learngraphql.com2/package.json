@@ -1,0 +1,20 @@
+{
+  "name": "learngraphql.com2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "hello": "babel-node index.js --presets es2015",
+    "start": "npm run hello"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "graphql": "^0.9.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1"
+  }
+}
